@@ -1,15 +1,11 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
-import { TypingText, TitleText } from "../components";
-import styles from "../styles";
+import { motion } from 'framer-motion';
+import styles from '../styles';
 import {
-  staggerContainer,
-  fadeIn,
-  zoomIn,
   footerVariants,
-} from "./../utils/motion";
-import { socials } from "../constants";
+} from '../utils/motion';
+import { socials } from '../constants';
 
 const Footer = () => (
   <motion.footer
